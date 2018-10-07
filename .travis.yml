@@ -6,7 +6,6 @@ node_js:
   - node
 addons:
   firefox: latest-esr
-  chrome: stable
 cache:
   directories:
     - node_modules
@@ -15,4 +14,4 @@ before_install:
 before_script:
   - npm install polymer-cli
   - $(npm bin)/polymer lint
-script: xvfb-run $(npm bin)/polymer test --module-resolution=node --npm
+script: xvfb-run $(npm bin)/polymer test --module-resolution=node --npm -l firefox
