@@ -14,5 +14,4 @@ before_install:
 before_script:
   - npm install polymer-cli
   - $(npm bin)/polymer lint
-script: $(npm bin)/polymer test --module-resolution=node --npm
-
+script: xvfb-run $(npm bin)/polymer test --module-resolution=node --npm
