@@ -7,7 +7,8 @@
     "material design",
     "chip"
   ],
-  "homepage": "https://github.com/chadweimer/paper-chip",
+  "homepage": "https://github.com/chadweimer/paper-chip#readme",
+  "repository": "github:chadweimer/iron-star-rating",
   "name": "@cwmr/paper-chip",
   "version": "3.0.0",
   "resolutions": {
@@ -30,5 +31,8 @@
   "devDependencies": {
     "wct-browser-legacy": "^1.0.1",
     "@webcomponents/webcomponentsjs": "^2.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
