@@ -1,20 +1,17 @@
-paper-chip [![Bower version](https://badge.fury.io/bo/paper-chip.svg)](http://badge.fury.io/bo/paper-chip) [![Build Status](https://travis-ci.org/Collaborne/paper-chip.svg?branch=master)](https://travis-ci.org/Collaborne/paper-chip) [![Published on webcomponents.org](https://img.shields.io/badge/webcomponents.org-published-blue.svg)](https://www.webcomponents.org/element/Collaborne/paper-chip)
-  
-[![Published on Vaadin  Directory](https://img.shields.io/badge/Vaadin%20Directory-published-00b4f0.svg)](https://vaadin.com/directory/component/Collabornepaper-chip)
-[![Stars on vaadin.com/directory](https://img.shields.io/vaadin-directory/star/Collabornepaper-chip.svg)](https://vaadin.com/directory/component/Collabornepaper-chip)
-=========
+paper-chip [![Build Status](https://travis-ci.com/chadweimer/paper-chip.svg?branch=master)](https://travis-ci.com/chadweimer/paper-chip) [![Published on webcomponents.org](https://img.shields.io/badge/webcomponents.org-published-blue.svg)](https://www.webcomponents.org/element/@cwmr/paper-chip)
+
 
 `paper-chip` provides a material design [chip](https://www.google.com/design/spec/components/chips.html) and a section of chips. The web component is built with [Polymer](https://www.polymer-project.org).
 
 To use element:
 
-`bower install Collaborne/paper-chip`
+`npm install @cwmr/paper-chip`
 
 <!--
 ```
 <custom-element-demo>
   <template>
-    <link rel="import" href="paper-chip.html">
+    <script type="module" src="paper-chip.js"></script>
     <next-code-block></next-code-block>
   </template>
 </custom-element-demo>
@@ -31,7 +28,8 @@ To use element:
 
     This software is licensed under the Apache 2 license, quoted below.
 
-    Copyright 2011-2015 Collaborne B.V. <http://github.com/Collaborne/>
+    Copyright 2011-2015 Collaborne B.V. <https://github.com/Collaborne/>
+    Copyright 2018 Chad Weimer <https://github.com/chadweimer>
 
     Licensed under the Apache License, Version 2.0 (the "License"); you may not
     use this file except in compliance with the License. You may obtain a copy of
