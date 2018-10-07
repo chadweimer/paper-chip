@@ -14,5 +14,5 @@ before_install:
 before_script:
   - npm install polymer-cli
   - $(npm bin)/polymer lint
-script: polymer test
+script: $(npm bin)/polymer test
 

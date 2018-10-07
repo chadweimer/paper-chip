@@ -18,7 +18,7 @@
   },
   "main": "paper-chip.js",
   "author": "chadweimer",
-  "license": "Apache 2",
+  "license": "Apache-2.0",
   "dependencies": {
     "@polymer/polymer": "^3.0.0",
     "@polymer/iron-a11y-keys-behavior": "^3.0.0",
@@ -28,6 +28,7 @@
     "@polymer/paper-styles": "^3.0.0"
   },
   "devDependencies": {
-    "wct-browser-legacy": "^1.0.1"
+    "wct-browser-legacy": "^1.0.1",
+    "@webcomponents/webcomponentsjs": "^2.0.0"
   }
 }
