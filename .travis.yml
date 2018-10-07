@@ -14,5 +14,5 @@ before_install:
 before_script:
   - npm install polymer-cli
   - $(npm bin)/polymer lint
-script: $(npm bin)/polymer test
+script: $(npm bin)/polymer test --module-resolution=node --npm
 
